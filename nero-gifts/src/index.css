@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+header {
+  background: var(--color-bg);
+  padding: 1rem;
+}
+
+header a {
+  font-family: 'Lobster', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-white);
+}
